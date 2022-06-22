@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+html,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+body > header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+body > header ul {
+  list-style: none;
+  padding: 0;
+}
+
+body > header a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+  color: white;
+}
+main {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 40px;
+}
+p {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: white;
+}
+/* Page content header */
+#header-home {
+  height: 100vh;
+  width: 100%;
+  padding: 2%;
+  background: black;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+}
+main > header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  opacity: 0.6;
+}
+#header-home section {
+  max-width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10vw;
+  z-index: 1;
+}
+header section h1 {
+  padding: 0.2em 0;
+  font-weight: 100;
+  font-size: 5em;
+  color: white;
+  text-shadow: 0 0 126px #4d4dff, 0 0 93px #db3eb1, 0 0 120px #4d4dff;
+}
+header section p {
+}
+header section i {
+  color: #57a6ff;
+  text-shadow: 1px 1px 1px #57a6ff;
+  font-size: 20px;
+}
+header section a {
+  margin: 5em 0;
+  padding: 1.2em 1.6em;
+  background: #fe1fff;
+  max-width: 184px;
+  text-align: center;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  filter: drop-shadow(2px 4px 2px blue);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* header-pages */
+#library {
+  background: black;
+}
+
+#library header {
+  height: 29vh;
+  display: flex;
+
+  align-items: end;
+}
+#library header section {
+  width: 80vw;
+
+  padding: 3% 6%;
+}
+#library header h1 {
+  color: white;
+  font-size: 4em;
+  text-shadow: 0 0 126px #4d4dff30, 0 0 93px #db3eb12e, 0 0 120px #4d4dff5e;
+}
+
+/* Library */
+
+main .games-list {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: auto;
+  margin-bottom: 1vh;
+}
+
+.games-list h2 {
+  margin: 1em 0.4em;
+  color: #fe1fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0 0 16px #440344, 0 0 93px #fe1fff, 0 0 120px #4d4dff5e;
+}
+
+#library > section:nth-of-type(1) {
+  margin-bottom: 10vh;
+  margin-top: 7vh;
+}
+main section ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+main section li {
+  margin: 1.2em 1em;
+  box-shadow: 0px 0px 20px -4px #ffffff21;
+}
+main section li figure {
+  overflow: hidden;
+  min-height: 210px;
+  position: relative;
+  min-width: 370px;
+  border-radius: 3px;
+}
+main section li figure img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+main section li figure a {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background: #0000006b;
+}
+main section li figure figcaption {
+  z-index: 2;
+  color: black;
+  font-size: 1.1em;
+  padding: 0.5em 2.2em;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  width: 100%;
+  background: #ffffffeb;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 100;
+}
+
+/* games */
+#games {
+  background: black;
+
+  padding-top: 10em;
+}
+#games header {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#games h1 {
+  text-align: center;
+  text-shadow: none;
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#games #backButton {
+  width: 90%;
+  margin: auto;
+  margin-bottom: auto;
+  margin-bottom: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#games #backButton a {
+  text-decoration: none;
+  color: #fe1fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0 0 16px #440344, 0 0 93px #fe1fff, 0 0 120px #4d4dff5e;
+}
+
+@keyframes gameOver {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#score {
+  animation: gameOver 2s ease infinite;
+}
