@@ -172,7 +172,7 @@ main section li figure img {
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
+ width: 100%;
 }
 main section li figure a {
   display: flex;
@@ -252,3 +252,4 @@ main section li figure figcaption {
 #score {
   animation: gameOver 2s ease infinite;
 }
+
