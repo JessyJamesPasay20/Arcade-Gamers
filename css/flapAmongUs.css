@@ -37,7 +37,7 @@
   background-color: #515151cc;
   position: relative;
   left: 700px;
-  animation: block 3s infinite linear;
+  animation: block 4s infinite linear;
   filter: drop-shadow(5px 0 7px #0000003d);
 }
 
@@ -53,13 +53,13 @@
 #hole {
   display: none;
   width: 50px;
-  height: 250px;
+  height: 300px;
   background-color: #fbd784;
 
   position: relative;
   left: 400px;
   top: -500px;
-  animation: block 3s infinite linear;
+  animation: block 4s infinite linear;
 }
 #character {
   display: none;
