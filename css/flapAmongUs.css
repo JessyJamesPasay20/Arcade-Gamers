@@ -37,7 +37,7 @@
   background-color: #515151cc;
   position: relative;
   left: 700px;
-  animation: block 2s infinite linear;
+  animation: block 3s infinite linear;
   filter: drop-shadow(5px 0 7px #0000003d);
 }
 
@@ -59,7 +59,7 @@
   position: relative;
   left: 400px;
   top: -500px;
-  animation: block 2s infinite linear;
+  animation: block 3s infinite linear;
 }
 #character {
   display: none;
