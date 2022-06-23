@@ -40,7 +40,7 @@ function gameTest() {
       window.getComputedStyle(character).getPropertyValue("top")
     );
     if (jumping == 0) {
-      character.style.top = characterTop + 4 + "px";
+      character.style.top = characterTop + 6 + "px";
     }
     var blockLeft = parseInt(
       window.getComputedStyle(block).getPropertyValue("left")
@@ -84,7 +84,7 @@ function gameTest() {
         window.getComputedStyle(character).getPropertyValue("top")
       );
       if (characterTop > 8 && jumpCount < 15) {
-        character.style.top = characterTop - 5 + "px";
+        character.style.top = characterTop - 4 + "px";
       }
       if (jumpCount > 20) {
         clearInterval(jumpInterval);
